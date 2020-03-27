@@ -1,21 +1,64 @@
 <!doctype html>
 <html>
 <head>
-  <title>자캐 프로필 정리</title>
+  <title>My Chracters</title>
   <meta charset="utf-8">
   <style>
-    a {
-    color: black;
-    text-decoration: none;
+    body {
+      margin:0;
     }
+    a {
+      color: black;
+      text-decoration: none;
+    }
+    h1 {
+      font-size: 25px;
+      border-bottom: 1px solid black;
+      padding: 30px;
+      padding-left: 150px;
+      padding-right: 100px;
+      margin-bottom: 0;
+    }
+    ol {
+      width: 50px;
+      padding: 15px;
+      padding-left: 30px;
+      padding-right: 40px;
+      margin-top:0;
+    }
+    .list {
+        border-right: 1px dotted grey;
+        padding-left: 150px;
+      }
+    .owner {
+      padding-bottom: 150px;
+      padding-left: 10px;
+    }
+    #grid {
+        display:grid;
+        grid-template-columns: 400px 1fr;
+      }
+    </style>
   </style>
 </head>
 <body>
-  <h1><a href="index.html">캐릭터 정리</a></h1>
-  <ol>
-    <li><a href="Aqus.html">Aqus</a></li>
-    <li><a href="강 원.html">강 원</a></li>
-  </ol>
-  <b>오너 Twitter</b> <a href="https://twitter.com/Mo_zzi_ATM" target="_blank"><font color="black">@Mo_zzi_ATM</font></a>
+  <h1><a href="index.html">My Characters</a></h1>
+  <div id=grid>
+    <div class="list">
+      <ol>
+        <li style="margin-bottom:5px;"><a href="Aqus.html">Aqus</a></li>
+        <li><a href="강 원.html">강 원</a></li>
+      </ol>
+    </div>
+    <div class="owner">
+    <p style="margin-bottom:0;">
+      <b>오너 Twitter</b> <a href="https://twitter.com/Mo_zzi_ATM" target="_blank"><font color="black">@Mo_zzi_ATM</font></a>
+    </p>
+    <p style="margin-top: 0px; font-size:9px;">
+      <&copy>2020. Mozzing. All rights reserved.
+    </p>
+    </div>
+  </div>
+  <br><br>
 </body>
 </html>
